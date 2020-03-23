@@ -3,11 +3,11 @@ import datetime
 
 # Hit run a couple minutes before enrollment starts.
 # Uncomment this if you want it to activate exactly when enrollment begins
-while True:
-    current_hour = datetime.datetime.now()
-    if current_hour.hour == 7:  # This is set for 7 AM Vanderbilt time, change this digit to reflect your time-zone.
-        print("It's time to enroll!")
-        break;
+# while True:
+#     current_hour = datetime.datetime.now()
+#     if current_hour.hour == 7:  # This is set for 7 AM Vanderbilt time, change this digit to reflect your time-zone.
+#         print("It's time to enroll!")
+#         break;
 
 # Fill in these with your username and password!
 username = 'YOUR_VUNET_ID'
