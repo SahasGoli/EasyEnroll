@@ -29,6 +29,10 @@ signOnButton.click()
 navToStudentRegistration = browser.find_element_by_xpath('//*[@id="applicationLinks_"]/div/div[10]/a')
 navToStudentRegistration.click()
 
+browser.implicitly_wait(10)
+termSelect = Select(browser.find_element_by_xpath('//*[@id="selectedTerm"]'))
+termSelect.select_by_index(0)
+
 navToCart = browser.find_element_by_xpath('//*[@id="savedClassesContextMenuItem"]/div[2]')
 navToCart.click()
 
