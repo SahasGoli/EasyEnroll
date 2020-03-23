@@ -14,7 +14,7 @@ Here's a very straightforward link on how to install Python for windows: https:/
 Once Python is installed, open command prompt (press the windows key and r at the same time, then type cmd and hit enter). 
 Once command prompt has been opened, type `pip install selenium` and hit enter. This should, if Python is installed correctly, install selenium.
 
-## Set-Up
+## Set-Up & Run
 Before your enrollment date, you will need to fill the Python file with your specific information so that it will work properly for you. This can be done in any text editor, including just Notepad.
 
 1. Download the files provided and store that folder wherever is convenient.
