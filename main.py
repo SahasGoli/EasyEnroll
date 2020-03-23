@@ -32,7 +32,7 @@ navToStudentRegistration.click()
 navToCart = browser.find_element_by_xpath('//*[@id="savedClassesContextMenuItem"]/div[2]')
 navToCart.click()
 
-# We must wait for the cart to load
+# We are waiting for the cart to load
 
 browser.implicitly_wait(100000)
 # Now select waitlist if enrolled for all the courses
