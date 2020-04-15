@@ -26,7 +26,7 @@ passwordInput.send_keys(password)
 signOnButton = browser.find_element_by_xpath('/html/body/div/div[2]/div/form/div[6]/a')
 signOnButton.click()
 
-navToStudentRegistration = browser.find_element_by_xpath('//*[@id="applicationLinks_"]/div/div[10]/a')
+navToStudentRegistration = browser.find_element_by_xpath('//*[@title="Student Registration"]')
 navToStudentRegistration.click()
 
 browser.implicitly_wait(10)
