@@ -64,4 +64,4 @@ browser.find_element_by_xpath('//*[@id="yui-gen46-button"]').click()
 browser.find_element_by_xpath('//*[@id="yui-gen64"]/a').click()
 
 # Click enroll after everything is done running.
-browser.find_element_by_xpath('//button[text()="Enroll"]').click()
+browser.find_element_by_xpath('//*[@id="enrollButton-button"]').click()
