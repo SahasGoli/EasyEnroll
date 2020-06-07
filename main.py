@@ -66,3 +66,5 @@ browser.find_element_by_xpath('//*[@id="yui-gen64"]/a').click()
 # Click enroll after everything is done running.
 browser.find_element_by_xpath('//*[@id="enrollButton-button"]').click()
 browser.implicitly_wait(100000)
+While True:
+  print("Close this program when you've finished enrolling (the submit actually goes true)")
