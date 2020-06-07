@@ -1,4 +1,4 @@
-# This is an exercise in seeing how accessible I am able to make an automatic course enroller through both extensive documentation and simplistic code.
+# This is an exercise in seeing how accessible I am able to make an automatic course enroller through both extensive documentation and simplistic code. USE AT YOUR OWN RISK! (The absolute safest way to game enrollment is to use a chrome extension that allows you to one click enroll in all classes.)
 
 ## Prerequisites 
 **To correctly operate this program you will require both Python and Selenium, but I'll give links showing you how to install both of those here.**
